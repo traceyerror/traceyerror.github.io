@@ -1,0 +1,22 @@
+
+body{
+  text-align: center;
+  background: #000;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: 50;
+}
+
+h1{
+	font-size: 100px;
+	font-weight: thin;
+}
+p{
+    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-style: italic;
+	font-size: 25px
+}
+
+hr {
+	width: 600px;
+}
