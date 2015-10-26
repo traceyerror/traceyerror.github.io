@@ -1,3 +1,5 @@
+@import url ("https://fonts.googleapis.com/css?family=Work+Sans:100");
+@import url ("https://fonts.googleapis.com/css?family=Nixie+One");
 
 body{
   text-align: center;
@@ -9,15 +11,17 @@ body{
   background-color: #000;
   font-family: Helvetica;
   font-weight: 50;
+  line-height: 15px;
 }
 
 h1{
+  font-family: Work Sans, Helvetica, sans-serif;
 	font-size: 100px;
+  letter-spacing: 15px;
 	font-weight: thin;
 }
 p{
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-style: italic;
+    font-family: Nixie One, 'Didot', Garamond, serif;
+	letter-spacing: 15px;
 	font-size: 25px
 }
-
