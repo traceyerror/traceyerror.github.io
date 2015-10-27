@@ -14,6 +14,31 @@ body{
   line-height: 15px;
 }
 
+#navcontainer ul {
+  width:750px;
+  margin:0 auto;
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 5px;
+  list-style-type: none;
+ 
+}
+
+
+li {
+
+    float: left;
+}
+
+a {
+
+    color: #fff;
+    display: block;
+    width: 150px;
+    text-decoration: none;
+   
+}
+
 h1{
   font-family: Work Sans, Helvetica, sans-serif;
 	font-size: 100px;
