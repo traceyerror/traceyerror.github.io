@@ -29,10 +29,15 @@ a {
 
 #navcontainer {
   text-align: center;
-  background-color: rgba(127,127,127,.2);
+  background-color: #E8C66A;
   padding: 20px;
 }
 
+header{
+  background-color: #FFED74;
+  padding: 10px
+
+}
 h1{
   font-family: Work Sans, Helvetica, sans-serif;
   font-size: 100px;
@@ -47,24 +52,29 @@ p{
   letter-spacing: 15px;
   font-size: 25px
 }
-main {
+
+section{
+  background-color: #FFE2B8;
+
+}
+
+article {
   width: 50em; 
-  background-color: rgba(127,127,127,.2);
+  background-color: #E89C6C;
+  position: center;
   padding: -50px 30px;
   position: left;
 }
 
 aside img{
-  width: 20em; 
-  padding: -50px 30px;
-  margin: 10px;
-  position: top-right;
+  background-color: #FFC675;
+  max-width: 300px;
+  padding: 20px;
+  margin: 20px;
   border: 1px black solid;
+
 }
 
-#logo{
-  position: top-right;
-}
 
 #img1{
   max-width: 300px;
@@ -81,7 +91,7 @@ hr {
 
 footer {
   padding: 2em;
-  background-color: rgb(0,0,0);
+  background-color: #FF9573;
 }
 
 
