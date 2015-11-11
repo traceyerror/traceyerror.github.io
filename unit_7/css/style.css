@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100");
 @import url("https://fonts.googleapis.com/css?family=Nixie+One");
 
-* {
-  padding: 0;
-  margin: 0;
+*,*:before, *:after {     
+  margin: 0;     
+  padding: 0;     
+  -moz-box-sizing: border-box;    
+  -webkit-box-sizing: border-box;     
+  box-sizing: border-box; 
 }
+
 .float-left { 
   float: left; 
 }
@@ -71,28 +75,28 @@ p{
 
 article {
   width: 50em; 
-  position: center;
-  position: left;
 }
 
 #gallery{
   max-width: 70%;
+  width: 100%;
   padding-bottom: 3em;
+  position: relative; 
 }
 
 aside img{
   max-width: 20em;
-  padding: 1em;
-  margin: 4em;
-  position: fixed;
-  top: 12em;
 }
 
 #logo{
   max-width: 30%;
+  position: absolute;
+  top: 0;
+  right: -20em;
 }
 
 figure{
+  max-width: 50%;
   display: block;
   float: left;
   height: 25em;
