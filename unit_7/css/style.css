@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100");
 @import url("https://fonts.googleapis.com/css?family=Nixie+One");
 
-*,*:before, *:after {     
-  margin: 0;     
-  padding: 0;     
-  -moz-box-sizing: border-box;    
-  -webkit-box-sizing: border-box;     
-  box-sizing: border-box; 
-}
+*,
+*:before, 
+*:after {     
+ margin: 0;
+ padding: 0;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+  }
 
 .float-left { 
   float: left; 
@@ -25,7 +27,7 @@ body{
   line-height: 1;
 }
 
-a {
+.navlink {
   font-family: Work Sans, Helvetica, sans-serif;
   font-size: 1em;
   letter-spacing: .3em;
@@ -35,7 +37,7 @@ a {
   margin: 2em;
 }
 
-a:hover{
+.navlink:hover{
   font-family: Work Sans, Helvetica, sans-serif;
   font-size: 1em;
   letter-spacing: .3em;
@@ -49,11 +51,11 @@ a:hover{
   text-align: center;
   background-color: rgba(255,255,255,.1);
   padding: 1em;
+  margin: -1em;
 }
 
 header{
-
-  padding: 2em;
+  padding: 1em;
 }
 
 h1{
@@ -61,20 +63,36 @@ h1{
   font-size: 6em;
   letter-spacing: .2em;
   font-weight: thin;
-  margin-top: .3em;
+  margin: .5em;
 }
 
 p{
-  margin-top: 1em;
+  margin-top: -1em;
   margin-bottom: 1em;
   font-family: Nixie One, 'Didot', Garamond, serif;
   letter-spacing: 1em;
   font-size: 1em;
 }
 
+.gallerylinks {
+  text-decoration: none;
+  color: rgb(255,255,255);
+  padding: -5em;
+  margin: -5em;
+  text-decoration: none;
+}
+
+.gallerylinks:hover {
+  padding: 0em;
+  margin: 0em;
+  text-decoration: none;
+  background-color: none;
+}
+
 
 article {
   width: 50em; 
+  text-decoration: none;
 }
 
 #gallery{
@@ -82,17 +100,22 @@ article {
   width: 100%;
   padding-bottom: 3em;
   position: relative; 
+  text-decoration: none;
 }
 
+
 aside img{
-  max-width: 20em;
+  max-width: 17em;
+  padding: .2em;
+  background-color: rgb(0,0,0);
+
 }
 
 #logo{
-  max-width: 30%;
-  position: absolute;
-  top: 0;
-  right: -20em;
+  max-width: 10%;
+  position: fixed;
+  top: 20.5em;
+  right: 15em;
 }
 
 figure{
@@ -101,11 +124,13 @@ figure{
   float: left;
   height: 25em;
   padding: .4em;
+  text-decoration: none;
 }
 
 figure:hover{
   background-color: rgba(255,255,255,.1);
   padding: .4em;
+  text-decoration: none;
 }
 
 figcaption{
@@ -122,6 +147,7 @@ figcaption{
   padding: 1em;
   margin: 1em;
   background-color: rgba(255,255,255,.1);
+  text-decoration: none;
 
 }
 
@@ -140,6 +166,27 @@ footer {
   background-color: rgba(255,255,255,.1);
   padding: 1em;
 }
+
+.footerlink {
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 2em;
+}
+
+.footerlink:hover{
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+
+}
+
 
 
 
