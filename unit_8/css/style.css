@@ -190,7 +190,7 @@ figcaption{
 */
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
 
 .float-left { 
@@ -218,9 +218,8 @@ figcaption{
 }
 
 #gallery {     
-  width: 100%; 
-  text-decoration: none;   
-  padding-bottom: .25em; 
+  width: 100%;
+
 }
 
 figure{
@@ -281,9 +280,6 @@ p{
 
 .navlink {
   font-size: .75em;
-  letter-spacing: .3em;
-  color: #fff;
-  text-decoration: none;
   padding: 0.45em;
   margin: 0.45em;
 }
@@ -300,7 +296,7 @@ p{
   top: -1em;
   padding: 0.45em;
   margin: 1em;
-  margin-left: -1em;
+  margin-left: -.5em;
 }
 
  article {
