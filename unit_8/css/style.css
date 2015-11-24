@@ -275,7 +275,7 @@ h1{
 }
 
 p{
-  margin-bottom: -2.5em;
+  margin-bottom: -1em;
   line-height: 1.25em;
 }
 
@@ -301,6 +301,27 @@ p{
   padding: 0.45em;
   margin: 1em;
   margin-left: -1em;
+}
+
+ article {
+  width: 100%; 
+  padding: .5em;
+  margin: .25em;
+}
+
+figure{
+  margin: .5em;
+
+}
+
+figure:hover{
+  margin: .5em
+
+}
+
+
+#footercontainer { 
+  padding-bottom: 2.5em;
 }
 
 }
