@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:100");
+@import url("https://fonts.googleapis.com/css?family=Nixie+One");
+
+*,
+*:before, 
+*:after {     
+ margin: 0;
+ padding: 0;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+  }
+
+.float-left { 
+  float: left; 
+}
+
+body{
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/frustrated.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #000;
+  font-family: Helvetica;
+  line-height: 1;
+}
+
+.navlink {
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 2em;
+}
+
+.navlink:hover{
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+#navcontainer {
+  position: fixed;    
+  display: block; 
+  width: 100%;      
+  z-index: 9;     
+  text-align: center;
+  background-color: #292929;
+  padding: 1em;
+  margin-top: -0.5em;
+}
+
+header{
+  padding: 1em;
+}
+
+h1{
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 6em;
+  letter-spacing: .2em;
+  font-weight: thin;
+  margin: .5em;
+}
+
+p{
+  margin-top: -1em;
+  margin-bottom: 1em;
+  font-family: Nixie One, 'Didot', Garamond, serif;
+  color: #fff;
+  letter-spacing: 1em;
+  font-size: 1em;
+}
+
+.gallerylinks {
+  text-decoration: none;
+  color: rgb(255,255,255);
+  padding: -5em;
+  margin: -5em;
+  text-decoration: none;
+}
+
+.gallerylinks:hover {
+  padding: 0em;
+  margin: 0em;
+  text-decoration: none;
+  background-color: none;
+}
+
+
+article {
+  width: 100%; 
+  text-decoration: none;
+}
+
+#gallery {     
+  width: 75%;     
+  position: relative;     
+  text-decoration: none;     
+  padding-bottom: 1em; 
+}
+
+
+aside img{
+  max-width: 17em;
+  position: fixed;
+  top: 19em;
+}
+
+#logo{
+  max-width: 25%;
+}
+
+figure{
+  max-width: 50%;
+  display: block;
+  float: left;
+  height: 23em;
+  padding: .4em;
+  text-decoration: none;
+}
+
+figure:hover{
+  background-color: rgba(255,255,255,.1);
+  padding: .4em;
+  text-decoration: none;
+}
+
+figcaption{
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  margin: .1em;
+}
+
+#img1{
+  max-width: 18.7em;
+  padding: 1em;
+  margin: 1em;
+  background-color: rgba(255,255,255,.1);
+  text-decoration: none;
+
+}
+
+
+.clear{
+  clear: both;
+}
+
+
+#footercontainer {
+  display: block;
+  position: absolute;
+  width: 100%;    
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 0.25em;
+  background-color: #000;
+}
+
+/*
+.footerlink {
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 2em;
+}
+
+.footerlink:hover{
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+
+}
+*/
+
+/*
+@media only screen and (max-width: 800px) {
+
+
+.float-left { 
+  float: none; 
+}
+
+.navlink {
+  font-size: .95em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.navlink:hover{
+  font-size: .95em;
+}
+
+#navcontainer {
+  margin: -.5em;
+}
+
+  article {
+  width: 100%; 
+  padding: .98em;
+  margin: .25em;
+}
+
+#gallery {     
+  width: 100%; 
+  text-decoration: none;   
+  padding-bottom: .25em; 
+}
+
+figure{
+  max-width: 100%;
+  height: 23em;
+  padding: 0em;
+  margin: 1em;
+
+}
+
+figure:hover{
+  padding: 0em;
+  margin: 1em
+
+}
+
+figcaption{
+  font-family: Work Sans, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  margin: .1em;
+}
+
+#img1 {
+  width: 100%;
+
+}
+
+aside img {
+  max-width: 50%;
+  position: inherit;
+}
+
+#logo{
+   display: block;
+   max-width: 100%;
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+}
+
+/*
+@media only screen and (max-width: 400px) {
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: .25em;
+  font-weight: thin;
+  margin-top: .25em;
+}
+
+p{
+  margin-bottom: -2.5em;
+  line-height: 1.25em;
+}
+
+.navlink {
+  font-size: .75em;
+  letter-spacing: .3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.45em;
+  margin: 0.45em;
+}
+
+.navlink:hover{
+  font-size: .75em;
+  letter-spacing: .3em;
+  padding: 0.45em;
+  margin: 0.45em;
+  
+}
+
+#navcontainer { 
+  top: -1em;
+  padding: 0.45em;
+  margin: 1em;
+  margin-left: -1em;
+}
+
+}
+
+
+
